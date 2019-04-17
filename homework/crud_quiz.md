@@ -31,7 +31,7 @@ Q8. What type of data structure is returned by calls to `db.exec_prepared()`? In
 An array of hashes. @id = properties_hashes[0]['id'].
 
 Q9. Why do we use prepared statements when performing database operations?
-Firstly, if we are running in Ruby it is hard to test there immediately. And also to avoid annoying typos, and make sure we have tested them before adding them.
+To avoid SQL injection attacks.
 
 ## Extension Questions
 
